@@ -24,13 +24,13 @@ const HomeHero = () => {
         <div className=" border-r-[0.5px] py-10 border-gray-300 pr-8">
           <div className=" flex items-center justify-between w-full my-4">
             <h3 className=" text-base font-normal text-[#000000]">
-              Woman's Fashion
+              Woman&apos;s Fashion
             </h3>
             <Image src={rightArrow} alt="arrow" />
           </div>
           <div className=" flex items-center justify-between w-full my-4">
             <h3 className=" text-base font-normal text-[#000000]">
-              Men's Fashion
+              Men&apos;s Fashion
             </h3>
             <Image src={rightArrow} alt="arrow" />
           </div>
@@ -58,7 +58,7 @@ const HomeHero = () => {
 
           <div className=" flex items-center justify-between w-full my-4">
             <h3 className=" text-base font-normal text-[#000000]">
-              Baby's & Toys
+              Baby&apos;s & Toys
             </h3>
           </div>
 
