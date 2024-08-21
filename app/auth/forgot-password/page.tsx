@@ -53,7 +53,9 @@ export default function Home() {
       if (error) {
         setErrMessage(error); // Use error.message to get the error string
       } else {
-        setSuccessMessage("Password reset email sent successfully!");
+        setSuccessMessage(
+          "Password reset email sent successfully!, please check your mail"
+        );
       }
     } finally {
       setTimeout(() => {
